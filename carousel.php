@@ -58,6 +58,6 @@ function generateCarousel($carouselItems){
     </button>
 </div>
 
-<?php $contentC = ob_get_clean(); return $contentC; }
+<?php $content = ob_get_clean(); return $content; }
 echo generateCarousel($carouselItems);
 ?>

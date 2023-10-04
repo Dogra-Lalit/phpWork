@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +10,8 @@
     <title>Hello, world!</title>
 </head>
 <body>
-    <?php include 'navigation.php'; ?>
-    <?php include 'carousel.php';  ?>
+    <?php include 'navigation.php';?>
+    <?php include 'carousel.php';?>
     <section class="my-5">
         <div>
             <h3 class="text-center">About Us
@@ -29,13 +28,8 @@
                     });
                     navLink.classList.add("active");
                 })
-            })
-
+            });
         });
- 
-
     </script>
-
 </body>
-
 </html>
