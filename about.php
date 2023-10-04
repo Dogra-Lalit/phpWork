@@ -11,7 +11,7 @@ function solution($R, $V) {
             $balA += $V[$i];
             $balB -= $V[$i];
             if($balB < $minB){
-                $minB = $balB;
+                $minB = $balA;
             }
         }elseif ($R[$i] === 'B') {
             $balB += $V[$i];

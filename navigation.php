@@ -1,5 +1,10 @@
 <?php 
-
+$menuItems = array(
+    'Home' => '/project/php/website/',
+    'Services' => '#',
+    'About' => 'about.php',
+    'Contact' => '#',
+ );
 function generateNavigation($menuItems){
     ob_start(); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,5 +35,5 @@ function generateNavigation($menuItems){
     </div>
 </nav>
 <?php $content = ob_get_clean(); return $content; }
-
+echo generateNavigation($menuItems);
 ?>

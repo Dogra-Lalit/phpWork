@@ -11,39 +11,8 @@
     <title>Hello, world!</title>
 </head>
 <body>
-    <?php include 'navigation.php'; 
-     $menuItems = array(
-        'Home' => '/project/php/website/',
-        'Services' => '#',
-        'About' => 'about.php',
-        'Contact' => '#',
-     );
-     echo generateNavigation($menuItems);
-    ?>
-    <?php include 'carousel.php'; 
-    $carouselItems = array(
-        array(
-            'image' =>'images/chicago.jpg',
-            'caption' =>'First slide label',
-            'desc' =>'Some representative placeholder content for the first slide.',
-            'interval'=>'10000',
-        ),
-        array(
-            'image' =>'images/la.jpg',
-            'caption' =>'Second slide label',
-            'desc' =>'Some representative placeholder content for the second slide.',
-            'interval'=>'2000',
-        ),
-        array(
-            'image' =>'images/ny.jpg',
-            'caption' =>'Third slide label',
-            'desc' =>'Some representative placeholder content for the third slide',
-            'interval'=>'',
-        ),
-    );
-    //echo "<pre>";print_r($carouselItems);exit;
-    echo generateCarousel($carouselItems);
-    ?>
+    <?php include 'navigation.php'; ?>
+    <?php include 'carousel.php';  ?>
     <section class="my-5">
         <div>
             <h3 class="text-center">About Us
