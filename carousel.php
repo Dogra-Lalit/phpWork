@@ -43,7 +43,6 @@ function generateCarousel($carouselItems){
         </div>
         <?php }
     }
-    
     ?>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -57,7 +56,6 @@ function generateCarousel($carouselItems){
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
 <?php $content = ob_get_clean(); return $content; }
 echo generateCarousel($carouselItems);
 ?>
