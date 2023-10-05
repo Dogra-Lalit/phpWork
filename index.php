@@ -10,6 +10,8 @@
     <title>Hello, world!</title>
 </head>
 <body>
+<?php require_once 'include/newclass.nic.php';?>
+    <?php $pet01 = new Person();echo $pet01->first ;?>
     <?php include 'navigation.php';?>
     <?php include 'carousel.php';?>
     <section class="my-5">
